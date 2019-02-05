@@ -1,0 +1,67 @@
+/* Cell Phone Type Device */
+@media screen and (max-width: 479px){
+
+.otherText {
+  width: 95%;
+  text-align: center;
+  margin: auto;
+  margin-top: 5px;
+  font-weight: 600;
+  font-size: 3.15vw;
+}
+
+.linkText {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 900;
+  color: black;
+  font-size: 7vw;
+}
+
+.link {
+  text-decoration: none
+}
+
+#USCTPic {
+  max-height: 60vh;
+  max-width: 90%;
+  display: flex;
+  margin: auto;
+  margin-top: 15px;
+}
+
+}
+
+/* Computer Type Device */
+@media screen and (min-width: 480px){
+
+  .otherText {
+  width: 95%;
+  text-align: center;
+  margin: auto;
+  margin-top: 5px;
+  font-weight: 600;
+  font-size: 3.15vw;
+}
+
+.linkText {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 900;
+  color: black;
+  font-size: 7vw;
+}
+
+.link {
+  text-decoration: none
+}
+
+#USCTPic {
+  max-height: 60vh;
+  max-width: 80%;
+  display: flex;
+  margin: auto;
+  margin-top: 60px;
+}
+
+}

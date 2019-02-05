@@ -1,0 +1,230 @@
+/* Cell Phone Type Device */
+@media screen and (max-width: 479px){
+
+#Navbar {
+  padding-bottom: 5px;
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+  height: 23vw;
+  background-color: var(--navbar-background-color);
+}
+
+#mainTitle {
+  color: var(--navbar-link-text);
+    text-align: center;
+    font-size: 7.6vw;
+    font-weight: bold;
+}
+
+#subTitle {
+  color: var(--navbar-link-text);
+  text-align: center;
+  font-size: 4.25vw;
+  font-weight: 100;
+}
+
+.heading {
+  margin-top: 5px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.navbar_menu {
+  width: 31vw;
+  padding: 1vw;
+  display: table;
+  border-radius: 13px;
+  background-color: var(--navbar-background-color);
+}
+
+.markers_menu {
+  width: 31vw;
+  padding: 1vw;
+  border-radius: 13px;
+  background-color: var(--navbar-background-color);
+}
+
+.menu {
+  font-size: 4.25vw;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding: 0px 3px;
+  border-radius: 7px;
+  cursor: pointer;
+  color: var(--navbar-background-color);
+  border: 0px;
+  line-height: 1.15;
+  width: 100%;
+}
+
+.menu:hover {
+  color: var(--navbar-link-text);
+  background-color: var(--navbar-background-color);
+}
+
+.markers {
+  font-size: 4.25vw;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding: 0px 3px;
+  border-radius: 7px;
+  cursor: pointer;
+  color: var(--navbar-background-color);
+  border: 0px;
+  line-height: 1.15;
+  width: 100%;
+}
+
+.markers:hover {
+  color: var(--navbar-link-text);
+  background-color: var(--navbar-background-color);
+}
+
+#donate_text {
+  font-size: 4.25vw;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0px 3px;
+  cursor: pointer;
+  color: var(--navbar-background-color);
+  border: 5px solid var(--navbar-link-text);
+  border-radius: 10px;
+  background-color: white;
+  line-height: 1.15;
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#donate_text:hover {
+  color: var(--navbar-link-text);
+  background-color: var(--navbar-background-color);
+}
+
+}
+
+/* Computer Type Device */
+@media screen and (min-width: 480px){
+
+#Navbar {
+  padding-bottom: 5px;
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+  height: 15vw;
+  background-color: var(--navbar-background-color);
+}
+
+#mainTitle {
+  color: var(--navbar-link-text);
+  text-align: center;
+  font-size: 7vw;
+  font-weight: bold;
+  line-height: 1;
+}
+
+#subTitle {
+  color: var(--navbar-link-text);
+  text-align: center;
+  font-size: 4vw;
+  font-weight: 100;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.heading {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.navbar_menu {
+  width: 20vw;
+  padding: .5vw;
+  display: table;
+  border-radius: 9px;
+  background-color: var(--navbar-background-color);
+}
+
+.markers_menu {
+  width: 20vw;
+  padding: .5vw;
+  display: table;
+  border-radius: 9px;
+  background-color: var(--navbar-background-color);
+}
+
+.menu {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding: 0px 3px;
+  border-radius: 7px;
+  cursor: pointer;
+  color: var(--navbar-background-color);
+  border: 0px;
+  line-height: 1.15;
+  width: 100%;
+}
+
+.menu:hover {
+  color: var(--navbar-link-text);
+  background-color: var(--navbar-background-color);
+}
+
+.markers {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding: 0px 3px;
+  border-radius: 7px;
+  cursor: pointer;
+  color: var(--navbar-background-color);
+  border: 0px;
+  line-height: 1.15;
+  width: 100%;
+}
+
+.markers:hover {
+  color: var(--navbar-link-text);
+  background-color: var(--navbar-background-color);
+}
+
+#donate_text {
+  font-size: 4.25vw;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0px 3px;
+  cursor: pointer;
+  color: var(--navbar-background-color);
+  border: 5px solid var(--navbar-link-text);
+  border-radius: 10px;
+  background-color: white;
+  line-height: 1.15;
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#donate_text:hover {
+  color: var(--navbar-link-text);
+  background-color: var(--navbar-background-color);
+}
+
+}

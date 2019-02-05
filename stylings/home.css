@@ -1,0 +1,92 @@
+/* Cell Phone Type Device */
+@media screen and (max-width: 479px){
+
+.mainPagePic {
+  max-height: 60vh;
+  max-width: 90%;
+  display: flex;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.mainPageFlier {
+    max-height: 70vh;
+    max-width: 95%;
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+.mainPageTitle {
+  font-weight: bold;
+  width: 90%;
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.mainText {
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.markerPagePic {
+  height: 42vh;
+  max-width: 90%;
+  display: flex;
+  margin: auto;
+  margin-top: 15px;
+}
+
+}
+
+/* Computer Type Device */
+@media screen and (min-width: 480px){
+
+  .mainPagePic {
+    max-height: 60vh;
+    max-width: 45%;
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+  }
+
+  .mainPageFlier {
+    max-height: 70vh;
+    max-width: 85%;
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .mainPageTitle {
+    font-weight: bold;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .mainText {
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+
+  .markerPagePic {
+    height: 36vh;
+    max-width: 45%;
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+  }
+
+}

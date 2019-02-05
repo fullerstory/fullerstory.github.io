@@ -1,0 +1,51 @@
+/* Cell Phone Type Device */
+@media screen and (max-width: 479px){
+
+.statue_image {
+  max-width: 90%;
+  display: flex;
+  margin: auto;
+  margin-top: 4vh;
+}
+
+#main_text {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#sub_title {
+  margin-top: 4vw;
+  font-size: 18px;
+  width: 95%;
+  margin-left: 2.5%;
+  text-align: center;
+}
+
+}
+
+/* Computer Type Device */
+@media screen and (min-width: 480px){
+
+.statue_image {
+  max-width: 40%;
+  display: inline-flex;
+  margin: 5%;
+  margin-top: 4vh;
+}
+
+#main_text {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#sub_title {
+  margin-top: 3vw;
+  font-size: 18px;
+  width: 95%;
+  margin-left: 2.5%;
+  text-align: center;
+}
+
+}

@@ -1,0 +1,55 @@
+@import "nav.css";
+@import "home.css";
+@import "usct.css";
+@import "media.css";
+@import "statue.css";
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Staatliches', cursive;
+}
+
+body {
+  /* background-image: url("../images/fullerStoryBackground.jpg");
+  background-size: cover; */
+  background-color:#587681;;
+}
+
+:root {
+  --navbar-background-color: #21344f;
+  /* --navbar-link-text: #E0A10E; */
+  --navbar-link-text: white;
+  --navbar-link-background:  #21344f;
+}
+
+@media screen and (max-width: 479px) {
+
+  #Main {
+    margin-bottom: 10vh;
+    position: absolute;
+    margin-top: 24vw;
+  }
+
+}
+
+/* Computer Type Device */
+@media screen and (min-width: 480px){
+
+  #Main {
+    margin-bottom: 10vh;
+    position: absolute;
+    margin-top: 18vw;
+  }
+
+  .marker_div {
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .marker_text_div {
+    flex-direction: column;
+  }
+
+}
