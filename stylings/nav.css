@@ -33,12 +33,11 @@
   width: 100%;
 }
 
-.navbar_menu {
+.home_menu {
   width: 31vw;
   padding: 1vw;
   display: table;
   border-radius: 13px;
-  background-color: var(--navbar-background-color);
 }
 
 .markers_menu {
@@ -46,6 +45,13 @@
   padding: 1vw;
   border-radius: 13px;
   background-color: var(--navbar-background-color);
+}
+
+.media_menu {
+  width: 31vw;
+  padding: 1vw;
+  display: table;
+  border-radius: 13px;
 }
 
 .menu {
@@ -149,12 +155,11 @@
   width: 100%;
 }
 
-.navbar_menu {
+.home_menu {
   width: 20vw;
   padding: .5vw;
   display: table;
   border-radius: 9px;
-  background-color: var(--navbar-background-color);
 }
 
 .markers_menu {
@@ -163,6 +168,13 @@
   display: table;
   border-radius: 9px;
   background-color: var(--navbar-background-color);
+}
+
+.media_menu {
+  width: 20vw;
+  padding: .5vw;
+  display: table;
+  border-radius: 9px;
 }
 
 .menu {

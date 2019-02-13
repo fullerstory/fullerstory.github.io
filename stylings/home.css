@@ -9,15 +9,6 @@
   margin-top: 15px;
 }
 
-.mainPageFlier {
-    max-height: 70vh;
-    max-width: 95%;
-    display: flex;
-    margin: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-
 .mainPageTitle {
   font-weight: bold;
   width: 90%;
@@ -54,15 +45,6 @@
     display: flex;
     margin: auto;
     margin-top: 15px;
-  }
-
-  .mainPageFlier {
-    max-height: 70vh;
-    max-width: 85%;
-    display: flex;
-    margin: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
   }
 
   .mainPageTitle {
